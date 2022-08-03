@@ -1,2 +1,2 @@
-# ViajarDisfrutar
-Sistema que hace referencia a conocer a México. 
+# GD
+# Prototipo de Gobierno de Datos.
