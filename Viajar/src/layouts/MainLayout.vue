@@ -43,7 +43,7 @@
         <q-item clickable v-ripple class="text-subtitle1" to = "/domDatos">
               <q-item-section avatar>
                 <q-avatar rounded>
-                  <q-icon class="text-grey-1" name="table_chart"/>
+                  <q-icon class="text-grey-1" name="map"/>
                 </q-avatar>
               </q-item-section>
               <q-item-section class="text-grey-1">Viajes</q-item-section>
@@ -52,7 +52,7 @@
         <q-item clickable v-ripple class="text-subtitle1" to = "/anaData">
               <q-item-section avatar>
                 <q-avatar rounded>
-                  <q-icon class="text-grey-1" name="analytics"/>
+                  <q-icon class="text-grey-1" name="location_city"/>
                 </q-avatar>
               </q-item-section>
               <q-item-section class="text-grey-1">Conociendo México</q-item-section>

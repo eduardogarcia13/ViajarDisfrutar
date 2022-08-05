@@ -1,17 +1,36 @@
 <template>
 <br>
-<q-card class="col-2 q-ma-sm q-my-auto q-pl-sm" flat>
-  <img class="fit" src="../assets/banner.jpg"/>
-</q-card>
-<!--GD / Misión y Visión-->
+<div class="q-pa-ms">
+  <div class="q-col-gutter-md row items-start justify-center">
+  <div class="col-md-5 offset-md-1">">
+    <img class="fit" src="../assets/x.jpg"/>
+  </div>
+    <div class="col-md-4">
+      <br>
+      <br>
+      <q-card-section class="text-dark">
+        <div class="text-h4 text-secundary">¿Qué son los viajes TUN Naucalpan?</div>
+        <br>
+        <div class="text-h6 text-secundary">
+        Los viajes TUN Naucalpan son orientados a que todas las personas puedan conocer un México que se ha llegado a perder, desde
+        sus pueblos mágicos hasta conocer la comida tradicional de los lugares por visitar.
+        </div>
+      </q-card-section>
+    </div>
+  </div>
+</div>
 <br>
 <div class="q-pa-md">
   <div class="q-col-gutter-md row items-start justify-left">
     <div class="col-md-2 offset-md-2">
         <br>
-        <div class="text-h5 text-secundary">Vive una aventura en alguno de nuestro viejes grupales</div>
+        <div class="text-h4 text-secundary justify-center">
+          Conoce México
+          </div>
         <br>
-        <iframe width="427" height="296" src="https://www.youtube.com/watch?v=Wn0zy6QfnjI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315"
+        src="https://www.youtube.com/embed/Wn0zy6QfnjI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
     </div>
     <div class="col-md-4 col-sm-4 offset-md-3">
       <div class="row justify-center q-mb-md">
@@ -46,18 +65,10 @@
     </div>
   </div>
 </div>
-<!--Objetivos
 <br>
 <div class="q-pa-md">
   <div class="q-col-gutter-md row items-start justify-left">
-    <div class="col-10"><img class="fit" src="../assets/GD4.png"/></div>
-  </div>
-</div>-->
-<!--DAMA-->
-<br>
-<div class="q-pa-md">
-  <div class="q-col-gutter-md row items-start justify-left">
-    <div class="col-md-4 offset-md-2"><img class="fit" src="../assets/airplan1.jpg"/></div>
+    <div class="col-md-4 offset-md-2"><img class="fit" src="../assets/xx.jpg"/></div>
     <div class="col-md-4 offset-md-1">
       <br>
       <br>
@@ -69,22 +80,6 @@
         </div>
       </q-card-section>
     </div>
-  </div>
-</div>
-<!--Proceso GD-->
-<br>
-<div class="q-pa-md">
-  <div class="q-col-gutter-md row items-start justify-left">
-    <div class="col-md-5 offset-md-1 text-h5 text-weight-medium text-montserrat">Pilares del Gobierno de Datos</div>
-  </div>
-  <br>
-  <div class="col-md-3 offset-md-1"><img class="fit" src="../assets/GD5.png"/></div>
-</div>
-<!--Roles Y Responsabilidades-->
-<br>
-<div class="q-pa-md">
-  <div class="q-col-gutter-md row items-start justify-left">
-    <div class="col-12"><img class="fit" src="../assets/GD6.png"/></div>
   </div>
 </div>
 </template>
